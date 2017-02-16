@@ -27,7 +27,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
                     d+=2*A
                 y+=1
                 d+=2*B
-            print "Octant II\n"
+            #print "Octant II\n"
         else:
             d = 2*A + B
             while (x <  x1):
@@ -37,7 +37,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
                     d+=2*B
                 x+=1
                 d+=2*A
-            print "Octant I\n"
+            #print "Octant I\n"
     else:
         if (y1 - y0) <= -1*(x1 - x0):
             d = A-2*B
@@ -48,7 +48,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
                     d+=2*A
                 y-=1
                 d-=2*B
-            print "Octant VII\n"
+            #print "Octant VII\n"
         else:
             d = 2*A - B
             while (x <  x1):
@@ -58,6 +58,6 @@ def draw_line( x0, y0, x1, y1, screen, color ):
                     d-=2*B
                 x+=1
                 d+=2*A
-            print "Octant VIII\n"
+            #print "Octant VIII\n"
 
 
